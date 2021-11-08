@@ -26,8 +26,8 @@
 
         .img {
             position: absolute;
-            width: 200px;
-            height: 200px;
+            width: 100%;
+            height: 100%;
             border-radius: 50%;
             overflow: hidden;
             display: flex;
@@ -35,7 +35,9 @@
             align-items: center;
 
             img {
+                width: 100%;
                 height: 100%;
+                object-fit: cover;
             }
         }
 
@@ -101,5 +103,30 @@
         font-size: 16px;
         background-color: #ebf7ff;
         color: $color-1;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .Card {
+        width: 95%;
+        margin: 0;
+
+        .profilImg {
+            width: 100px;
+            height: 100px;
+
+            .quote {
+                font-size: 10px;
+                padding: 10px;
+                left: -5px;
+            }
+        }
+
+        h4, p {
+            font-size: 16px;
+        }
+        small {
+            font-size: 14px;
+        }
     }
 }
