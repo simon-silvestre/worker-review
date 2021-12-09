@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Birthday Reminder 👋</h1>
+<h1 align="center">Welcome to Worker Review 👋</h1>
 <p>
   <a href="https://www.npmjs.com/package/weather-app" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/weather-app.svg">
